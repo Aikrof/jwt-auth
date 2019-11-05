@@ -1,0 +1,39 @@
+{
+    "name": "aikrof/jwt-auth",
+    "description": "Simple JSON Web Token Authentication for Laravel",
+    "keywords": [
+        "authentication",
+        "auth",
+        "jwt",
+        "json web token"
+    ],
+    "authors": [
+        {
+            "name": "Aikrof",
+            "email": "AikrofStark@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/Aikrof/jwt-auth",
+    "license": "MIT",
+    "version": "1.0.0",
+    "type": "library",
+    "require": {
+        "php": ">=7.1.8",
+        "illuminate/console": "^5.8",
+        "illuminate/support": "^5.8",
+        "illuminate/http": "^5.8",
+        "illuminate/auth": "^5.8",
+        "illuminate/contracts": "^5.8",
+        "illuminate/database": "^5.8",
+        "nesbot/carbon": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aikrof\\JwtAuth\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "sort-packages": true
+    }
+}
