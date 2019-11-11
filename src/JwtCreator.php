@@ -416,7 +416,7 @@ trait JwtCreator
     {
         $ssl = !!JwtConfig::getConfig('SSL');
 
-        if ($_COOKIE['secure']){
+        if (!empty($_COOKIE['secure'])){
             unset($_COOKIE['secure']);
             setcookie(
                 'secure',
